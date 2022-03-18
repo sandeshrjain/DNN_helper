@@ -9,9 +9,9 @@ from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.models import Model
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.layers import (Conv2D, Dense, Flatten, Input,
-                                     Lambda, MaxPooling2D, Dropout, Concatenate)
-from tensorflow import keras
-from tensorflow.keras import layers
+                                     MaxPooling2D, Dropout, Concatenate)
+#from tensorflow import keras
+#from tensorflow.keras import layers
 from tensorflow.keras.utils import to_categorical
 import matplotlib.pyplot as plt
 import numpy as np
